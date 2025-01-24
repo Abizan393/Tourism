@@ -1,0 +1,126 @@
+#Information{
+    font-size:25px;
+    font-family:cursive;
+    margin:20px;
+    padding:15px;
+    border:solid yellow;
+    background:linear-gradient(red,orange);
+    text-align: center;
+}
+
+#Main_Image img{
+    width:50rem;
+   height:50rem;
+   margin-left:35rem;
+}
+
+#Menu img{
+height:150px;
+width:150px;
+}
+
+#Menu li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size:20px;
+}
+
+nav{
+    float:right;
+    border:solid blue 5px;
+    background-color: aquamarine;
+}
+
+
+#Famous_Images img{
+    width:250px;
+    height:250px;
+    margin:20px;
+}
+
+#Famous_Images{
+    
+    border:solid darkorange;
+    background:linear-gradient(maroon,yellow);
+    margin:20px;
+}
+
+#Quebec_images{
+    margin-left:500px;
+}
+#Quebec_image1{
+    margin-left:800px;
+}
+
+#Exploring_Images img{
+width:210px;
+height:210px;
+}
+
+.content{
+opacity:1;
+background:linear-gradient(lightblue,darkorange);
+color: black;
+top:"20%";
+left:"20%";
+z-index: 1;
+padding:20px;
+
+}
+
+.Timage{
+    transition: transform 1s;
+    transform: skewX(-20deg);
+  
+}
+
+.Timage:hover{
+    transform: skewX(0deg);
+
+}
+.Timage:hover+.content{
+opacity: 1;
+
+}
+
+#Facts_About_Quebec{
+    border:solid 15px;
+    background: linear-gradient(lightblue,pink);
+    margin-top:25px;
+}
+
+#Facts_About_Quebec h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+#Conclusion{
+    border:solid 15px;
+    background:linear-gradient(pink,yellow);
+    margin-top:30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Conclusion h2{
+    text-align: center;
+    font-family: cursive;
+
+}
+
+#Exploring_Images{
+    border:solid 5px;
+    background:linear-gradient(orange,lightblue);
+}
+
+#Main_Image{
+    border:3px;
+    background:linear-gradient(purple,yellow);
+    margin-top:25px;
+}
+
+#Famous_Images{
+    margin-top:25px;
+    margin-bottom:30px;
+
+}
